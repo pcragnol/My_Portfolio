@@ -1,5 +1,9 @@
 # My_Portfolio
 
+##
+
+###
+
 #### Credits
 Aurora Borealis image acquired from Forbes.com
 Volcano image acquired from NationalGeographic.com
