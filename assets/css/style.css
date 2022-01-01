@@ -1,1 +1,79 @@
 /* CSS */
+* {
+    box-sizing: border-box;
+    border: 1px solid purple;
+}
+
+h1 {
+    display: inline;
+}
+
+nav {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2 {
+    float: left
+}
+
+.project {
+    height: 400px;
+    background-size: cover;
+}
+
+.project:hover {
+    box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);;
+    transition: all 0.4s ease-in-out;
+}
+
+.first-project {
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    width: 100%;
+}
+
+.other-project {
+    width: 50%;
+}
+
+.second-project {
+    background-image: url("../images/GettyImages-155380802-c2abbe4.jpeg");
+}
+
+.third-project {
+    background-image: url("../images/01-reference-volcanoes-cb9bmt_2x1.webp");
+}
+
+.fourth-project {
+    background-image: url("../images/https___specials-images.forbesimg.com_imageserve_61c9e386e52ca88e8f8fba4c_Aurora-Borealis-or-Northern-Lights--Iceland_960x0.jpg_fit=scale");
+}
+
+.fifth-project {
+    background-image: url("../images/shutterstock_90117172.webp");
+}
+
+footer {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .other-project {
+        width: 100%;
+    }
+}
