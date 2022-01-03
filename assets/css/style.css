@@ -1,14 +1,40 @@
+:root {
+    --backgroundColor: rgb(10, 151, 71);
+    --lightTextColor: rgb(219, 219, 219);
+}
+
 * {
     box-sizing: border-box;
-    border: 1px solid purple;
+}
+
+body {
+    background-color: var(--backgroundColor);
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@font-face {
+    font-family: NunitoSans;
+    src: url("../fonts/Nunito_Sans/NunitoSans-Regular.ttf");
+}
+
+h1,
+h2,
+h3,
+h4,
+a,
+li,
+p {
+    color: var(--lightTextColor);
+    font-family: NunitoSans, Roboto, sans-serif;
 }
 
 h1 {
     display: inline;
-}
-
-nav {
-    float: right;
 }
 
 ul {
@@ -28,8 +54,19 @@ a {
     flex-wrap: wrap;
 }
 
-h2 {
-    float: left
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-me h2 {
+    float: left;
+    margin: 0 5px 0 0;
+}
+
+.about-me img {
+    max-width: 100px;
+    max-height: 100px;
 }
 
 .project {
@@ -37,9 +74,8 @@ h2 {
     background-size: cover;
 }
 
-.project:hover {
-    box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);;
-    transition: all 0.4s ease-in-out;
+h3 {
+    font-size: 30px;
 }
 
 .first-project {
@@ -55,6 +91,10 @@ h2 {
     background-image: url("../images/GettyImages-155380802-c2abbe4.jpeg");
 }
 
+.second-project h3 {
+    color: black;
+}
+
 .third-project {
     background-image: url("../images/01-reference-volcanoes-cb9bmt_2x1.webp");
 }
@@ -65,10 +105,6 @@ h2 {
 
 .fifth-project {
     background-image: url("../images/shutterstock_90117172.webp");
-}
-
-footer {
-    text-align: center;
 }
 
 @media screen and (max-width: 768px) {
