@@ -26,7 +26,6 @@ h1,
 h2,
 h3,
 h4,
-a,
 li,
 p {
     color: var(--lightTextColor);
@@ -35,6 +34,7 @@ p {
 
 h1 {
     display: inline;
+    font-size: 38px;
 }
 
 ul {
@@ -43,20 +43,21 @@ ul {
 
 li {
     display: inline;
+    margin: 0px 5px;
 }
 
 a {
     text-decoration: none;
-}
-
-.projects {
-    display: flex;
-    flex-wrap: wrap;
+    color: rgb(0, 103, 134);
 }
 
 .about-me {
     display: flex;
     flex-wrap: wrap;
+}
+
+h2 {
+    font-size: 28px;
 }
 
 .about-me h2 {
@@ -67,6 +68,17 @@ a {
 .about-me img {
     max-width: 100px;
     max-height: 100px;
+    float: left;
+    margin-right: 5px;
+}
+
+.about-me p {
+    font-size: 18px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .project {
@@ -75,7 +87,8 @@ a {
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 31px;
+    margin-left: 20px;
 }
 
 .first-project {
