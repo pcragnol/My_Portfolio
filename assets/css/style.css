@@ -101,15 +101,19 @@ h3 {
 }
 
 .second-project {
-    background-image: url("../images/GettyImages-155380802-c2abbe4.jpeg");
+    background-image: url("../images/code-quiz.png");
 }
 
-.second-project h3 {
-    color: black;
+.second-project a {
+    color: yellow;
 }
 
 .third-project {
-    background-image: url("../images/01-reference-volcanoes-cb9bmt_2x1.webp");
+    background-image: url("../images/orlando-magic-fan-hub.png");
+}
+
+.third-project a {
+    color: yellow;
 }
 
 .fourth-project {
